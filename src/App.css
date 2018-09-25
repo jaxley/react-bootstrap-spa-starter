@@ -1,0 +1,20 @@
+html {
+	font-size: 12px;
+}
+
+.sidebar-nav.sidebar-brand a.active
+{
+    background-color: transparent;
+}
+.sidebar-nav li a.active {
+	background-color: lightsteelblue;
+	color: black;
+}
+
+.sidebar-nav li {
+	background-color: black;
+}
+
+.sidebar-nav li:hover {
+	background-color: steelblue;
+}

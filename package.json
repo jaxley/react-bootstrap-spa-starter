@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "css-loader": "^1.0.0",
+    "react": "^16.5.2",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.5.2",
+    "react-router-dom": "^4.3.1",
+    "style-loader": "^0.23.0",
+    "yarn": "^1.9.4"
+  },
+  "name": "security-tools",
+  "version": "1.0.0",
+  "description": "Self-service security tools",
+  "main": "index.js",
+  "repository": "TBD",
+  "author": "ewesec@expedia.com",
+  "license": "N/A",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.2",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "scripts": {
+    "start-dev": "webpack-dev-server --mode development"
+  }
+}
